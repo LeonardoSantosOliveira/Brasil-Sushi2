@@ -20,6 +20,13 @@ iframe {
 }
 .navbar-brand {
   font-family: "Luckiest Guy", cursive;
+  color: #fff;
+}
+.navbar-brand:hover {
+  color: #fff;
+}
+.navbar-brand:focus {
+  color: #fff;
 }
 
 .nav-link, .nav-link:hover, .nav-link:focus {
