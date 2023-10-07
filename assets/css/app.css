@@ -12,7 +12,6 @@ ul {
 
 iframe {
   width: 100%;
-  height: 420px;
 }
 
 .navbar {
@@ -96,6 +95,10 @@ footer p, footer a {
 }
 footer a:hover {
   color: #ff0000;
+}
+
+#cardapio iframe {
+  height: 550px;
 }
 
 .carousel-caption {
