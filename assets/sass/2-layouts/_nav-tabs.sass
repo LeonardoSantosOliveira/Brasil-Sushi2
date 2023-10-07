@@ -1,0 +1,17 @@
+@use '../1-base/_variables'
+
+#cardapio
+
+    & .nav-link
+        font-size: 1rem
+        border: 1px solid transparent
+        width: 100%
+        transition: .3s
+
+        &:hover
+            border-color: variables.$red-color
+            color: variables.$dark-color
+
+    & .nav-link.active
+        background-color: variables.$red-color
+        color: variables.$light-color 

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brasil Sushi Iguape</title>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <!-- FONTS GOOGLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" 
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <!-- CSS BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <!-- BS ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- CSS DO PROJETO -->
+    <link rel="stylesheet" href="assets/css/app.css">
+    <!-- JS BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top red-bg-color p-3" id="cabecalho">
+        <div class="container">
+            <a href="#" class="navbar-brand section-title fs-1">Brasil Sushi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+                <ul class="nav nav-pills flex-column flex-md-row">
+                    <li class="nav-item mt-4 mt-md-0">
+                        <a href="#sobre-o-restaurante" class="nav-link active"><i class="bi bi-house-door me-1"></i>Sobre o restaurante</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#eventos" class="nav-link"><i class="bi bi-calendar-check me-1"></i>Eventos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#cardapio" class="nav-link"><i class="bi bi-card-text me-1"></i>Nosso cardápio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#localizacao" class="nav-link"><i class="bi bi-geo-alt-fill me-1"></i>Localização</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#fale-conosco" class="nav-link"><i class="bi bi-chat-left-text me-1"></i>Fale Conosco</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true" class="scrollspy" tabindex="0">
+        <section id="sobre-o-restaurante" class="pb-4 colored-bg">
+            <div class="container-fluid">
+                <div id="carousel-sushi" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel-sushi" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carousel-sushi" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carousel-sushi" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img src="assets/img/banner1.jpg" class="d-block w-100" alt="banner1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="section-title">OS MELHORES COMBINADOS!</h5>
+                            <p>Grande variedade de combinados à sua disposição.</p>
+                        </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/banner2.jpg" class="d-block w-100" alt="banner2">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="section-title">QUALIDADE EM PRIMEIRO LUGAR!</h5>
+                                <p>Utilizamos produtos de primeira qualidade.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/banner3.jpg" class="d-block w-100" alt="banner3">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="section-title">A MELHOR APRESENÇÃO!</h5>
+                                <p>Entregamos pratos que são de comer com os olhos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-sushi" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-sushi" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    </div>
+            </div>1
+            <div class="container" id="sobre-content">
+                <div class="row">
+                    <div class="col-12 col-md-5">
+                        <img src="assets/img/restaurante.jpeg" class="d-block w-100 rounded" alt="Foto do restaurante">
+                    </div>
+                    <div class="col-12 col-md-7">
+                        <h2 class="section-title mt-3 mb-3">Sobre o <span class="colored-text">Brasil Sushi</span></h2>
+                        <p class="mb-4">"Restaurante japonês, atendemos no sistema de rodízio completo e a la carte. No a la carte, temos ótimas opções de combinados de sushis e sashimis e variedades em pratos quentes. Temos opções para quem não come comida japonesa."</p>
+                        <h3 class="section-title mb-3">Sobre o <span class="colored-text">espaço</span></h3>
+                        <p>Projetado para criar uma atmosfera relaxante e autêntica que complementa a experiência gastronômica única da culinária japonesa. A decoração, a disposição dos assentos e a atenção aos detalhes são fundamentais para que lhes permita desfrutar de uma refeição memorável.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="p-4">
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col-12">
+                        <h2 class="section-title text-center">Para <span class="colored-text">todas as ocasiões</span></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <img src="assets/img/confraternizacoes.jpg" class="d-block w-100 rounded" alt="confraternizacoes">
+                        <h3 class="section-title colored-text my-3"><i class="bi bi-people-fill me-3"></i>Confraternizações</h3>
+                        <p>No Brasil Sushi, acreditamos que a boa comida e o ambiente acolhedor são essenciais para celebrar momentos especiais com amigos, familiares e colegas de trabalho. É por isso que convidamos você a escolher o nosso restaurante como o local perfeito para suas próximas confraternizações.</p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <img src="assets/img/aniversario.jpg" class="d-block w-100 rounded" alt="aniversario">
+                        <h3 class="section-title colored-text my-3"><i class="bi bi bi-calendar-heart-fill me-3"></i>Aniversários</h3>
+                        <p>No Brasil Sushi, estamos mais do que apenas um lugar para comer. Somos um destino de celebração, e estamos ansiosos para tornar o seu aniversário uma experiência inesquecível! Seja você um amante de sushi, apaixonado por pratos quentes ou um fã de culinária japonesa, temos algo especial preparado para você e seus convidados.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cardapio" class="colored-bg p-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="section-title text-center">Nosso <span class="colored-text">cardápio</span></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <aside class="col-12 col-md-2">
+                        <ul class="nav nav-pills" id="navegacao-cardapio">
+                            <li class="nav-item w-100">
+                                <button class="nav-link text-start active" id="a-la-carte-btn" data-bs-toggle="tab" data-bs-target="#cardapio-a-la-carte" type="button">À la carte</button>
+                            </li>
+                            <li class="nav-item w-100">
+                                <button type="button" class="nav-link text-start" id="rodizio-btn" data-bs-toggle="tab" data-bs-target="#cardapio-rodizio">Rodízio</button>
+                            </li>
+                            <li class="nav-item w-100">
+                                    <button type="button" class="nav-link text-start" id="delivery-btn" data-bs-toggle="tab" data-bs-target="#cardapio-delivery">Delivery</button>
+                            </li>
+                            <li class="nav-item w-100">
+                                <button type="button" class="nav-link text-start" id="bebidas-btn" data-bs-toggle="tab" data-bs-target="#cardapio-bebidas">Bebidas e Drinks</button>
+                            </li>
+                        </ul>
+                    </aside>
+                    <div class="col-12 col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="cardapio-a-la-carte">
+                                <div class="row">
+                                    <h3 class="section-title">À la carte</h3>
+                                </div>
+                                <div class="iframe-container">
+                                    <iframe src="https://drive.google.com/file/d/1jH8ZIt6X5EXT8QUhwm4emWrxhjv-Xkln/preview" width="640" height="480" allow="autoplay"></iframe>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="cardapio-rodizio">
+                                <div class="row">
+                                    <h3 class="section-title">Rodízio</h3>
+                                </div>
+                                <div class="iframe-container">
+                                    <iframe src="https://drive.google.com/file/d/1Pf7QEF0j1FJo_CIhuDGYp0rssg6M7wrO/preview" width="640" height="480" allow="autoplay"></iframe>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="cardapio-delivery">
+                                <div class="row">
+                                    <h3 class="section-title">Delivery</h3>
+                                </div>
+                                <div class="iframe-container">
+                                    <iframe src="https://drive.google.com/file/d/1ElZ8x4ozvA-DN9QhfYIXhMIImM_bsRcj/preview" width="640" height="480" allow="autoplay"></iframe>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="cardapio-bebidas">
+                                <div class="row">
+                                    <h3 class="section-title">Bebidas e Drinks</h3>
+                                </div>
+                                <div class="iframe-container">
+                                    <iframe src="https://drive.google.com/file/d/1v0ipfgna_GJvaZW3SJiqsTxERnNNN6Xs/preview" width="640" height="480" allow="autoplay"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="localizacao" class="p-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h4 class="section-title">Chegue até <span class="colored-text">nós</span></h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2489.9593803178745!2d-47.555809289123296!3d-24.709113157161227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94daa3bbe86b966d%3A0x3ea0e285cab4f8a7!2sBrasil%20Sushi%20Iguape!5e0!3m2!1spt-BR!2sbr!4v1696636227994!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="p-5 colored-bg">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="section-title text-center fw-bold fs-1 mb-4">Fale <span class="colored-text">conosco</span></h3>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <h4 class="section-title">ESTAMOS LOCALIZADOS EM:</h4>
+                            <p>Praça da Basílica, 92 - Iguape/SP</p>
+                            <a href="https://maps.app.goo.gl/f7kk2m2aEDJGQ28JA" class="card-link card-btn" target="_blank">COMO CHEGAR</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="bi bi-whatsapp"></i>
+                            <h4 class="section-title">NOS CHAME EM:</h4>
+                            <p>(13) 99675-1546</p>
+                            <a href="https://l.instagram.com/?u=http%3A%2F%2Fwa.me%2F5513996751546&e=AT3OPOl8ct3FI2k2LsDExRfNwgx4p1Obc4mP3npoFbJtkWTBuBxYtvCWUchZGpBteowBvDbwWCRajo2TDNzjvl76KxN4auGhMpbbkll7rrnMmCS7zxj4HQ" class="card-link card-btn" target="_blank">CHAMAR</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="bi bi-instagram"></i>
+                            <h4 class="section-title">INSTAGRAM:</h4>
+                            <p>@brasilsushi_igp</p>
+                            <a href="https://www.instagram.com/brasilsushi_igp/" class="card-link card-btn" target="_blank">SIGA-NOS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>
+                <span class="colored-text">Brasil Sushi Iguape</span> &copy; - Todos os direitos reservados - Desenvolvido por <a href="https://www.instagram.com/l98oliveira/">Leonardo Santos</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+@use '../1-base/_variables'
+@use '../2-layouts/_layouts-mixins'
+
+.carousel
+
+    &-caption
+        background-color: #ff000072
+        right: 50px
+        bottom: 100px
+        height: 250px
+        @include layouts-mixins.center-content
+        flex-direction: column
+        justify-content: center
+        border-radius: 10px
+
+    & h5
+        font-size: 4rem
+
+    & p 
+        font-size: 1.5rem

@@ -1,0 +1,19 @@
+@use '../1-base/_variables'
+
+.navbar
+    background-color: variables.$red-color
+
+    &-brand
+        font-family: 'Luckiest Guy', cursive
+
+.nav
+
+    &-link,
+    &-link:hover,
+    &-link:focus
+        font-weight: bold
+        color: variables.$dark-color
+
+#cabecalho .nav-link.active
+    background-color: variables.$light-color
+    color: variables.$red-color

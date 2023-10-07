@@ -1,0 +1,37 @@
+@use '../1-base/_variables'
+
+#fale-conosco
+    .card
+
+        height: 400px
+
+        &-body
+            text-align: center
+            display: flex
+            flex-direction: column
+            justify-content: space-around
+
+            & .bi
+                font-size: 3.5rem
+                color: variables.$red-color 
+                
+            & h4
+                font-weight: bold
+
+            & p
+                font-size: 1.3rem
+
+.card-btn
+    background-color: variables.$red-color
+    color: variables.$light-color 
+    padding: 10px
+    border-radius: 5px
+    font-size: 1.2rem
+    font-weight: bold
+    border: 2px solid transparent
+    transition: .2s
+
+    &:hover
+        border: 2px solid variables.$red-color 
+        background-color: variables.$light-color 
+        color: variables.$dark-color

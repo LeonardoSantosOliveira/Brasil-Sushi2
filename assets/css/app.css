@@ -1,0 +1,149 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+iframe {
+  width: 100%;
+  height: 420px;
+}
+
+.navbar {
+  background-color: #ff0000;
+}
+.navbar-brand {
+  font-family: "Luckiest Guy", cursive;
+}
+
+.nav-link, .nav-link:hover, .nav-link:focus {
+  font-weight: bold;
+  color: #000;
+}
+
+#cabecalho .nav-link.active {
+  background-color: #fff;
+  color: #ff0000;
+}
+
+#sobre-o-restaurante .container-fluid {
+  padding: 0;
+}
+
+.section-title {
+  font-family: "Luckiest Guy", cursive;
+}
+
+.colored-text {
+  color: #ff0000;
+}
+
+.colored-bg {
+  background-color: #ffebeb;
+}
+
+#cardapio .nav-link {
+  font-size: 1rem;
+  border: 1px solid transparent;
+  width: 100%;
+  transition: 0.3s;
+}
+#cardapio .nav-link:hover {
+  border-color: #ff0000;
+  color: #000;
+}
+#cardapio .nav-link.active {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+#localizacao .section-title {
+  font-size: 2rem;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+footer {
+  padding: 10px;
+  position: static;
+  bottom: 0;
+  text-align: center;
+  background-color: #000;
+}
+footer p, footer a {
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 0;
+  transition: 0.3s;
+}
+footer a:hover {
+  color: #ff0000;
+}
+
+.carousel-caption {
+  background-color: rgba(255, 0, 0, 0.4470588235);
+  right: 50px;
+  bottom: 100px;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+}
+.carousel h5 {
+  font-size: 4rem;
+}
+.carousel p {
+  font-size: 1.5rem;
+}
+
+.iframe-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#fale-conosco .card {
+  height: 400px;
+}
+#fale-conosco .card-body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#fale-conosco .card-body .bi {
+  font-size: 3.5rem;
+  color: #ff0000;
+}
+#fale-conosco .card-body h4 {
+  font-weight: bold;
+}
+#fale-conosco .card-body p {
+  font-size: 1.3rem;
+}
+
+.card-btn {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: 2px solid transparent;
+  transition: 0.2s;
+}
+.card-btn:hover {
+  border: 2px solid #ff0000;
+  background-color: #fff;
+  color: #000;
+}
+
+/*# sourceMappingURL=app.css.map */
